@@ -19,10 +19,9 @@ The simplest way to get started is to check out master, and run `kitchen converg
 *   Email candidate ssh key and public IP
 
 ### On-site
+Note: You will want to ensure that a candidate does not exit the machine, go to the git repo, etc.
 *   Checkout a tag and `kitchen converge`
 *   `kitchen login`
-Note: You will want to ensure that a candidate does not exit the machine, go to the git repo, etc.
-
 
 ## Contributing
 It would be awesome if people contributed broken scenarios.
