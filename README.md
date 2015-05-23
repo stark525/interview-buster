@@ -12,10 +12,17 @@ You can easily visualize one possible solution with `git diff`.  This is by desi
 ## Getting Started
 The simplest way to get started is to check out master, and run `kitchen converge`, then `kitchen login` to your ChefDK spun up Vagrant instance.
 
-## Proposed Generic Workflow
+## Proposed Approaches
+### Take-home (recommended)
 *   Checkout a tag and upload to your chef server
 *   Spin up an AWS instance using knife with the [ec2 plugin](https://github.com/chef/knife-ec2)
-*   Delete the .git folder (if it exists)
+*   Email candidate ssh key and public IP
+
+### On-site
+*   Checkout a tag and `kitchen converge`
+*   `kitchen login`
+Note: You will want to ensure that a candidate does not exit the machine, go to the git repo, etc.
+
 
 ## Contributing
 It would be awesome if people contributed broken scenarios.
