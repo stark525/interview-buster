@@ -12,7 +12,7 @@ You can easily visualize one possible solution with `git diff`.  This is by desi
 ## Getting Started
 The simplest way to get started is to check out master, and run `kitchen converge`, then `kitchen login` to your ChefDK spun up Vagrant instance.
 
-## Proposed generic workflow
+## Proposed Generic Workflow
 *   Checkout a tag and upload to your chef server
 *   Spin up an AWS instance using knife with the [ec2 plugin](https://github.com/chef/knife-ec2)
 *   Delete the .git folder (if it exists)
@@ -20,5 +20,8 @@ The simplest way to get started is to check out master, and run `kitchen converg
 ## Contributing
 It would be awesome if people contributed broken scenarios.
 
-## Final notes
+## Final Notes
 The bash history has timestamps added; use this as a resource for evaluting a candidate's critical thinking process.
+
+## License
+MIT License
