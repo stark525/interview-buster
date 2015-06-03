@@ -12,5 +12,7 @@ platforms:
 suites:
   - name: default
     run_list:
-      - recipe[interview-buster::default]
+      - recipe[interview-buster::mysql]
+      - recipe[interview-buster::php]
+      - recipe[interview-buster::httpd]
     attributes:
