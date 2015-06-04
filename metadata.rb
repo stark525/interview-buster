@@ -8,5 +8,5 @@ long_description 'A LAMP virtual machine with tags that are intentionally broken
 version '0.1.2'
 
 depends 'mysql'
-depends 'httpd'
+depends 'apache2'
 depends 'php'

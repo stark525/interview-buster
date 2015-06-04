@@ -1,6 +1,6 @@
 #
 # Cookbook Name:: interview-buster
-# Recipe:: httpd
+# Recipe:: apache2
 #
 # Copyright (c) 2015 Dan Stark <dstark75@gmail.com>, All Rights Reserved.
 
