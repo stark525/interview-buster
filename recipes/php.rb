@@ -4,4 +4,4 @@
 #
 # Copyright (c) 2015 Dan Stark <dstark75@gmail.com>, All Rights Reserved.
 
-# Installs/configures PHP
+# PHP is installed by including recipe[php::default] in .kitchen.yml 

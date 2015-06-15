@@ -1,7 +1,10 @@
 #
 # Cookbook Name:: interview-buster
-# Recipe:: apache2
+# Recipe:: apache
 #
 # Copyright (c) 2015 Dan Stark <dstark75@gmail.com>, All Rights Reserved.
 
-# Install Apache webserver
+# Install httpd webserver
+httpd_service 'default' do
+  action [:create]
+end

@@ -6,13 +6,10 @@ provisioner:
   name: chef_zero
 
 platforms:
-  - name: ubuntu-12.04
   - name: centos-6.5
 
 suites:
   - name: default
     run_list:
       - recipe[interview-buster::mysql]
-      - recipe[interview-buster::php]
-      - recipe[interview-buster::httpd]
     attributes:
