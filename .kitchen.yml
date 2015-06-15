@@ -12,4 +12,6 @@ suites:
   - name: default
     run_list:
       - recipe[interview-buster::mysql]
+      - recipe[php::default]
+
     attributes:
