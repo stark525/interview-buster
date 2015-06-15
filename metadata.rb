@@ -5,8 +5,8 @@ license 'MIT'
 description 'Installs/Configures interview-buster'
 long_description 'A LAMP virtual machine with tags that are intentionally broken'
 
-version '0.1.3'
+version '0.1.4'
 
 depends 'mysql'
-depends 'apache2'
+depends 'httpd'
 depends 'php'
