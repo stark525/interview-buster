@@ -9,6 +9,6 @@ httpd_service 'default' do
   action [:create]
 end
 
-service 'httpd' do
+service 'apache2' do
 	action :start
 end

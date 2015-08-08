@@ -1,0 +1,1 @@
+default['interview-buster']['python-webapp']['mysql-package-list'] = ['mysql-server', 'python-mysqldb']
